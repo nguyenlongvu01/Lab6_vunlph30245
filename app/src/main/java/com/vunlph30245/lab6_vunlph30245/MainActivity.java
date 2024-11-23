@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                         .bigPicture(largeIcon) // Hiển thị Bitmap lớn trong notification
                         .bigLargeIcon((Bitmap) null)) // Không hiển thị icon lớn mặc định
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
+//                .addAction(R.drawable.button_icon, BUTTON_TEXT, actionPendingIntent);
                 .build();
 
         // Hiển thị notification
